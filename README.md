@@ -30,4 +30,8 @@ Following the clean up procedure , the sequence of setups on each machine can oc
 
 
 #### start.sh 
-The start.sh script handles creating and running of relevant containers for each machine. 
+The start.sh script handles creating and running of relevant containers for each machine. This first involves deleting any previous docker containers and any existing chaincode images. The log folder is then created within the copied data directory.
+
+
+
+
