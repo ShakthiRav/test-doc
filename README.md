@@ -30,3 +30,4 @@ Following the clean up procedure , the sequence of setups on each machine can oc
 
 
 #### start.sh 
+The start.sh script handles creating and running of relevant containers for each machine. 
