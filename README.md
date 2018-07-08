@@ -36,6 +36,6 @@ The start.sh script handles creating and running of relevant containers for each
 
 ![screen shot 2018-07-08 at 22 28 16](https://user-images.githubusercontent.com/40793810/42424366-01fdc188-8303-11e8-8e01-5f6336998dff.png)
 
-
+The above is common to all machines. The next process is to create the appropriate docker compose files corresponding to each machine to allow the right containers to be run in each machine.
 
 
