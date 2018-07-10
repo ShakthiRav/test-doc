@@ -37,7 +37,7 @@ The start.sh script handles creating and running of relevant containers for each
 
 ![screen shot 2018-07-08 at 22 28 16](https://user-images.githubusercontent.com/40793810/42424366-01fdc188-8303-11e8-8e01-5f6336998dff.png)
 
-The above is common to all machines. The next process is to create the appropriate docker compose files corresponding to each machine to allow the right containers to be run in each machine. This is handled by the make-docker.sh script . This script varies for each machine allowing accordingly different containers to be run on different machines.
+The above is common to all machines. The next process is to create the appropriate docker compose files corresponding to each machine to allow the right containers to be run in each machine. This is handled by the make-docker.sh script . This script varies for each machine allowing different docker-compose files to be created and accordingly different containers to be run on different machines.
 
 ## card-generator.sh
 After the initial network setup has occured, to enable access, typically composer playground would be used and the relavant fields would be manually typed in. card-generator.sh automizes this process allowing bypassing of the composer playground UI.
