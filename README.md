@@ -1,6 +1,7 @@
 ## # Documentation
 
 ## Requirements
+Ensure all prerequisites detailed in the offciail hyperledger documentation are installed on all machines. 
 Different branches of fabric-grabielle refer to different machines ( root ca ,  intermediate ca ect )  Ensure the content from each branch of the fabric-gabriele repository is in $GOPATH/src/github.com/hyperledger/ of the corresponding machine.
 
 
